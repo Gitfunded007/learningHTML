@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="COD4 Mod Menu">
+    <title>COD4 Mod Menu</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .menu-container {
+            width: 300px;
+            background-color: #333;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        h1 {
+            text-align: center;
+            font-size: 24px;
+        }
+        .search-bar {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border: 2px solid #444;
+            background-color: #222;
+            color: white;
+            border-radius: 5px;
+        }
+        .category {
+            margin-bottom: 15px;
+        }
+        .category h2 {
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #ffcc00;
+        }
+        .category ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .category li {
+            background-color: #444;
+            margin: 5px 0;
+            padding: 8px;
+            border-radius: 5px;
+        }
+        .category li:hover {
+            background-color: #555;
+        }
+        .category input {
+            margin-right: 10px;
+        }
+        .button {
+            width: 100%;
+            padding: 10px;
+            background-color: #00b300;
+            color: white;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .button:hover {
+            background-color: #009900;
+        }
+    </style>
+</head>
+<body>
+
+<div class="menu-container">
+    <h1>COD4 Mod Menu</h1>
+    
+    <!-- Search bar -->
+    <input type="text" class="search-bar" id="search" placeholder="Search Mod Menu...">
+    
+    <!-- Category: Basic HTML -->
+    <div class="category">
+        <h2>Basic HTML</h2>
+        <ul>
+            <li><input type="checkbox"> <!DOCTYPE> - Defines the document type</li>
+            <li><input type="checkbox"> <html> - Defines an HTML document</li>
+            <li><input type="checkbox"> <head> - Contains metadata/information</li>
+            <li><input type="checkbox"> <title> - Defines the title for the document</li>
+        </ul>
+    </div>
+    
+    <!-- Category: Formatting -->
+    <div class="category">
+        <h2>Formatting</h2>
+        <ul>
+            <li><input type="checkbox"> <b> - Defines bold text</li>
+            <li><input type="checkbox"> <i> - Defines italicized text</li>
+            <li><input type="checkbox"> <u> - Defines underlined text</li>
+            <li><input type="checkbox"> <em> - Defines emphasized text</li>
+        </ul>
+    </div>
+    
+    <!-- Category: Links -->
+    <div class="category">
+        <h2>Links</h2>
+        <ul>
+            <li><input type="checkbox"> <a href="#"> - Defines a hyperlink</li>
+            <li><input type="checkbox"> <nav> - Defines navigation links</li>
+        </ul>
+    </div>
+
+    <!-- Category: Media -->
+    <div class="category">
+        <h2>Media</h2>
+        <ul>
+            <li><input type="checkbox"> <img src="image.jpg" alt="Image"> - Defines an image</li>
+            <li><input type="checkbox"> <audio controls> - Defines sound content</li>
+            <li><input type="checkbox"> <video controls> - Defines a video or movie</li>
+        </ul>
+    </div>
+    
+    <!-- Category: Forms -->
+    <div class="category">
+        <h2>Forms</h2>
+        <ul>
+            <li><input type="checkbox"> <form> - Defines an HTML form for user input</li>
+            <li><input type="checkbox"> <input type="text"> - Defines a text input control</li>
+            <li><input type="checkbox"> <button> - Defines a clickable button</li>
+        </ul>
+    </div>
+    
+    <!-- Action Button -->
+    <button class="button">Apply Mods</button>
+</div>
+
+</body>
+</html>
